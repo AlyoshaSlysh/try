@@ -1,0 +1,51 @@
+.hero.container {
+    padding-top: 80px;
+    padding-bottom: 85px;
+    min-height: 947px;
+}
+
+.img_group {
+    position: relative;
+    width: 196px;
+    left: 70%;
+    margin-top: -45px;
+}
+
+.hero p {
+    max-width: 545px;
+}
+
+
+.img_hero {
+    position: absolute;
+    width: 924px;
+    margin-top: -89px;
+}
+
+@media (max-width: 768px) {
+    .hero.container {
+        min-height: 413px;
+        padding-top: 48px;
+    }
+
+    .img_hero {
+        width: 309px;
+        margin-top: -40px;
+        margin-left: -20px;
+    }
+
+    .img_group {
+        width: 79px;
+        margin-top: 42px;
+    }
+
+    .hero_text {
+        display: none;
+    }
+
+    .hero h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 187.5%;
+    }
+}

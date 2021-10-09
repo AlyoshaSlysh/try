@@ -1,0 +1,41 @@
+.component {
+    margin: 100px 0 65px -15px;
+    display: flex;
+    padding-top: 20px;
+}
+
+.component_img {
+    max-width: 651px;
+    margin: -20px 0 0 -20px;
+}
+
+.component_text {
+    max-width: 536px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+h4 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.component_text p {
+    font-size: 17px;
+    line-height: 25px;
+    color: #515151;
+}
+
+.btn {
+    min-width: 177px;
+    padding: 13px 15px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    background: var(--orange);
+}
