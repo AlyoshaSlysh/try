@@ -47,11 +47,11 @@ h2 {
         padding-right: 20px;
     }
 
-    .banner_img {
-        display: none;
-    }
-
     .h3 {
         font-size: 16px;
+    }
+
+    .min_text {
+        font-size: 15px;
     }
 }
