@@ -79,7 +79,7 @@ nav button {
 
 @media (max-width: 768px) {
     .desktop_header {
-        display: none;
+        margin-top: -15px;
     }
     
     nav {

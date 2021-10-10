@@ -122,6 +122,10 @@
 
     .scroll.container{
         padding-bottom: 30px;
+        max-width: 299px;
+        margin: 0 auto;
+        display: grid;
+        max-height: 374px;
     }
 
     .scroll_content {

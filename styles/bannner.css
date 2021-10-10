@@ -73,6 +73,11 @@ h1 {
         padding-right: 50px;
     }
 
+    .banner_img {
+        position: fixed;
+        z-index: -100;
+    }
+
     h1 {
         min-width: 271px;
         font-weight: bold;
