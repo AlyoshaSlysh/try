@@ -18,26 +18,70 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    height: 487px;
+    max-height: 487px;
     margin-bottom: 40px;
 }
 
 .one {
-    width: 383px;
+    max-width: 383px;
 }
 
 .two {
-    width: 352px;
+    max-width: 352px;
 }
 
 .three {
-    width: 246px;
+    max-width: 246px;
 }
 
 .four {
-    width: 401px;
+    max-width: 401px;
 }
 
 .five {
-    width: 469px;
+    max-width: 469px;
+}
+
+@media (max-width: 992px) {
+    .one {
+        max-width: 316px;
+    } 
+    .two {
+        max-width: 292px;
+    }
+
+    .three {
+        max-width: 201px;
+    }
+
+    .four {
+        max-width: 328px;
+    }
+
+    .five {
+        max-width: 384px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .one {
+        max-width: 243px;
+    } 
+
+    .two {
+        max-width: 224px;
+    }
+
+    .three {
+        max-width: 154px;
+    }
+
+    .four {
+        max-width: 252px;
+    }
+
+    .five {
+        max-width: 295px;
+    }
 }

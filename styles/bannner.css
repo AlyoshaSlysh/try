@@ -60,6 +60,13 @@ h1 {
     margin: 8px;
 }
 
+@media (max-width: 992px) {
+    .banner .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
 @media (max-width: 768px) {
     .banner .container{
         padding-left: 50px;

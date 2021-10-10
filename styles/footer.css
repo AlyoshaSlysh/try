@@ -72,3 +72,16 @@ footer .container {
     font-size: 13px;
     line-height: 190.6%;
 }
+
+@media (max-width: 992px) {
+    .footer_part{
+        margin: 0;
+    }
+
+    .about_us {
+        margin: 0;
+    }
+    .links_icons {
+        margin-right: 0;
+    }
+}

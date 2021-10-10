@@ -39,3 +39,9 @@ h4 {
     text-align: center;
     background: var(--orange);
 }
+
+@media (max-width: 768px) {
+    .component{
+        margin-top: 0;
+    }
+}
