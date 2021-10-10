@@ -40,8 +40,42 @@ h4 {
     background: var(--orange);
 }
 
+@media (max-width: 992px) {
+    .component {
+        margin: 5px 15px;
+        display: block;
+    }
+
+    .component_img {
+        max-width: 541px;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 768px) {
     .component{
-        margin-top: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .component_img {
+        max-width: 306px;
+    }
+
+    .component_text h4 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .component_text p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 375px) {
+    .component_text h4 {
+        max-width: 260px;
     }
 }

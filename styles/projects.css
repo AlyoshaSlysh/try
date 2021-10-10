@@ -18,8 +18,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    max-height: 487px;
+    align-items: center;
     margin-bottom: 40px;
+}
+
+.gallery_img {
+    min-width: 306px;
+    margin: 5px;
 }
 
 .one {
@@ -43,45 +48,11 @@
 }
 
 @media (max-width: 992px) {
-    .one {
-        max-width: 316px;
-    } 
-    .two {
-        max-width: 292px;
-    }
-
-    .three {
-        max-width: 201px;
-    }
-
-    .four {
-        max-width: 328px;
-    }
-
-    .five {
+    .gallery_img {
         max-width: 384px;
     }
 
-}
-
-@media (max-width: 768px) {
-    .one {
-        max-width: 243px;
-    } 
-
-    .two {
-        max-width: 224px;
-    }
-
-    .three {
-        max-width: 154px;
-    }
-
-    .four {
-        max-width: 252px;
-    }
-
-    .five {
-        max-width: 295px;
+    .gallery {
+        justify-content: center;
     }
 }

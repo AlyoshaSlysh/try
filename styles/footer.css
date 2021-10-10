@@ -15,12 +15,13 @@ footer .container {
     font-size: 16px;
     line-height: 24px;
     color: var(--white);
+    margin-right: 5px;
 }
 
 .about_us {
     max-width: 282px;
-    margin-left: 70px;
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .about_us span {
@@ -46,6 +47,7 @@ footer .container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-left: 10px;
 }
 
 .links_icons a {
@@ -72,14 +74,29 @@ footer .container {
 }
 
 @media (max-width: 992px) {
-    .footer_part{
-        margin: 0;
+    footer .container {
+        display: flex;
+        padding: 37px 30px 30px 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    .about_us {
-        margin: 0;
+    .footer_part {
+        margin-left: 5px;
     }
-    .links_icons {
-        margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .footer_part {
+        max-width: 282px;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    footer .container {
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 }

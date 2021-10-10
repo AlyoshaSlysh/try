@@ -13,10 +13,12 @@
 }
 
 .banner_img{
+    position: relative;
     max-width: 675px;
     width: 100%;
     margin-top: 2px;
     margin-bottom: 6px;
+    min-width: 440px;
 }
 
 .banner_text {
@@ -24,6 +26,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    margin-right: 10px;
     max-height: 512px;
 }
 
@@ -35,6 +38,7 @@
 }
 
 h1 {
+    min-width: 470px;
     font-weight: bold;
     font-size: 50px;
     line-height: 155.2%;
@@ -67,15 +71,16 @@ h1 {
     }
 }
 
+@media (max-width: 920px){
+    .banner_img {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .banner .container{
         padding-left: 50px;
         padding-right: 50px;
-    }
-
-    .banner_img {
-        position: fixed;
-        z-index: -100;
     }
 
     .banner_text p {

@@ -16,6 +16,8 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 40px;
+    margin-bottom: 7px;
 }
 
 .suggestions a {
@@ -29,8 +31,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 13px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .suggestion {
@@ -61,7 +63,22 @@
         padding: 0 10px;
     }
     
-    .disappearing {
-        display: none;
+    .game {
+        display: block;
+    }
+
+    .suggestions{
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    
+    .suggestions:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .min_text {
+        max-width: 264px;
     }
 }

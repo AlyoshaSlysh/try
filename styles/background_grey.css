@@ -125,7 +125,7 @@
         max-width: 299px;
         margin: 0 auto;
         display: grid;
-        max-height: 374px;
+        max-height: 360px;
     }
 
     .scroll_content {
@@ -140,5 +140,16 @@
         display: flex;
         padding-top: 16px;
         justify-content: flex-end;
+    }
+}
+
+@media (max-width: 576px) {
+    .scroll_content p {
+        font-size: 12px;
+        line-height: 187.5%;
+    }
+
+    .scroll_content a {
+        left: 170px;
     }
 }
