@@ -99,4 +99,20 @@ footer .container {
         flex-wrap: wrap;
         flex-direction: column;
     }
+
+    .footer_part {
+        font-size: 13px;
+    }
+
+    .about_us span {
+        font-size: 13px;
+    }
+    
+    .about_us ul {
+        font-size: 13px;
+    }
+
+    .about_us a {
+        font-size: 13px;
+    }
 }
