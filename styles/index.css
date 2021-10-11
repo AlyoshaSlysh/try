@@ -10,6 +10,6 @@
 @import "./component.css";
 @import "./running_title.css";
 @import "./footer.css";
-@import "";
-@import "";
-@import "";
+@import "./banner_new.css";
+@import "./news_general.css";
+@import "./side_left.css";
