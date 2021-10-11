@@ -28,7 +28,7 @@
 .search {
     max-width: 400px;
     position: relative;
-    margin: 74px auto;
+    margin: 74px auto 10px auto;
 }
 
 .search input {
