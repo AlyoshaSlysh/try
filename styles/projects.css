@@ -20,6 +20,7 @@
     align-content: space-between;
     align-items: center;
     margin-bottom: 40px;
+    margin: 0 -5px 40px -5px;
 }
 
 .gallery_img {

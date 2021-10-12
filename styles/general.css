@@ -40,6 +40,10 @@ h2 {
     line-height: 187.5%;
 }
 
+a:hover {
+    opacity: 0.3;
+}
+
 @media (max-width: 768px) {
     .container {
         min-width: 355px;
