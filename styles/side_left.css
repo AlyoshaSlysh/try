@@ -1,12 +1,15 @@
 .thematic {
     padding-top: 90px;
-    padding-bottom: 46px;
+    padding-bottom: 90px;
+}
+
+.solid {
     border-bottom: 0.7px solid #A5A5A5;
 }
 
 .thematic_img {
     max-width: 587px;
-    margin-bottom: 10px;
+    margin-bottom: 21px;
 }
 
 .thematic_btn {
@@ -16,7 +19,7 @@
     font-size: 16px;
     line-height: 187.5%;
     color: #FFFCFC;
-    margin: 10px 10px 20px 0;
+    margin: 21px 10px 20px 0;
 }
 
 .thematic span {
@@ -37,6 +40,7 @@
     font-size: 30px;
     line-height: 45px;
     text-align: start;
+    margin-top: 32px;
 }
 
 .thematic h4 {
@@ -48,7 +52,108 @@
 }
 
 .article_text {
+    max-width: 530px;
     font-size: 17px;
     line-height: 207.8%;
     color: #515151;
+}
+
+.paragrapf {
+    margin-top: 22px;
+}
+
+@media (max-width: 992px) {
+    .thematic {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .thematic_btn {
+        padding-left: 23px;
+        padding-right: 26px;
+    }
+
+    .thematic h3 {
+        font-size: 27px;
+        line-height: 41px;
+        margin-top: 31px;
+        margin-bottom: 27px;
+    }
+    
+    .article_text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .thematic {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .thematic_btn {
+        padding-left: 20px;
+        padding-right: 22px;
+    }
+    
+    .thematic h3 {
+        font-size: 24px;
+        line-height: 35px;
+        margin-top: 30px;
+        margin-bottom: 22px;
+    }
+
+    .solid_last {
+        border-bottom: 0.7px solid #A5A5A5;
+    }
+
+    .article_text {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .thematic {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .thematic_btn {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .solid {
+        border-bottom: none;
+    }
+    
+    .thematic h3 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 29px;
+        margin-bottom: 20px;
+    }
+
+    .article_text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {    
+    .thematic {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .thematic h3 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 19px;
+    }
+
+    .article_text {
+        font-size: 12px;
+        min-width: 293px;
+    }
 }
